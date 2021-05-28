@@ -1,0 +1,67 @@
+body{
+  background-color: #363636;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-family: 'Rubik', sans-serif;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#weather-display{
+  background-color: #00000046;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 0px black;
+}
+
+.temp-button:hover{
+  cursor: pointer;
+  user-select: none;
+}
+
+.time-div{
+  font-family: 'Jost', sans-serif;
+  color: white;
+  text-shadow: 3px 3px black;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.time-display{
+  background-color: #00000046;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 0px black;
+}
+.time-display h1{
+  font-size: 4rem;
+}
+.time-display:hover{
+  cursor: pointer;
+  user-select: none;
+}
+
+.quote-div{
+  text-shadow: 1px black;
+  background-color: #0000005e;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 0px black;
+}
+
+#img-display{
+  color: #ccc7c7;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
