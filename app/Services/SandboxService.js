@@ -1,5 +1,5 @@
 import { ProxyState } from "../AppState.js"
-import { BackgroundImage } from "../Models/backgroundImage.js"
+import { BackgroundImage } from "../Models/BackgroundImage.js"
 import { Quote } from "../Models/Quote.js"
 import { Weather } from "../Models/Weather.js"
 
