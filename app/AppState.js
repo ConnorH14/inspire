@@ -6,6 +6,7 @@ class AppState extends EventEmitter {
   backgroundImg = ''
   weather = ''
   quote = ''
+  listItems = []
 
 }
 

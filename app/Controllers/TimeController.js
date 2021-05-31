@@ -18,7 +18,8 @@ function _drawHalfTime(){
 
   setInterval(function(){
     let currentTime = new Date()
-    let currentHours = currentTime.getHours() > 12 ? currentTime.getHours() - 12: cuurentTime.getHours()
+    let currentHours = currentTime.getHours() > 12 ? currentTime.getHours() - 12: currentTime.getHours()
+    currentHours = currentHours == 0 ? currentHours = 12: currentHours = currentHours;
     let currentMinutes = currentTime.getMinutes() > 9 ? currentTime.getMinutes() : '0' + currentTime.getMinutes()
     let currentSeconds = currentTime.getSeconds() > 9 ? currentTime.getSeconds() : '0' + currentTime.getSeconds()
     halfTimeDisplay.innerHTML = /*hmtl*/`

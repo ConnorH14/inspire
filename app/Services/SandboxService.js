@@ -22,6 +22,7 @@ class SandboxService{
     let res = await sandboxApi.get('weather')
     ProxyState.weather = new Weather(res.data)
   }
+
 }
 
 export const sandboxService = new SandboxService()
