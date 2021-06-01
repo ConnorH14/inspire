@@ -52,6 +52,43 @@ body{
   color: #ccc7c7;
 }
 
+input{
+  background: none;
+  border: none;
+  border-bottom: 3px solid white;
+  color: white;
+}
+
+
+button{
+  background: none;
+  border: none;
+  color: white;
+}
+
+::placeholder{
+  color: #d3d0d0;
+}
+
+li{
+  list-style: none;
+}
+
+.fa-trash:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.author{
+  opacity: 0;
+  transition:0.5s ease-in-out;
+}
+
+.author:hover{
+  opacity: 1;
+  transition:0.5s ease-in-out;
+}
+
 @keyframes fadeInAnimation {
   0% {
       opacity: 0;

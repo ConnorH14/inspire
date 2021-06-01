@@ -4,7 +4,7 @@ import { sandboxService } from "../Services/SandboxService.js";
 function _drawQuote(){
   document.getElementById('quote-display').innerHTML = /*html*/ `
   <h6>"${ProxyState.quote.content}"</h6>
-  <small>- ${ProxyState.quote.author}</small>
+  <small class="author">- ${ProxyState.quote.author}</small>
   `
 }
 export class QuoteController{
